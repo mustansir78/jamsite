@@ -1,0 +1,7 @@
+<div style="text-align: center;width: 100%;color: dodgerblue;padding-bottom: 1rem;">
+    <strong>
+    {{- range . }}
+     <a href="/tags/{{ . | urlize }}/">#{{ . }}</a> 
+    {{- end }}
+    </strong>
+</div>
